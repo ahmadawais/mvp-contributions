@@ -88,8 +88,8 @@ async function main() {
 			console.log('📝 Saved:');
 			console.log('   - MVP Access Token');
 			console.log('   - MVP Profile ID\n');
-			console.log('🎉 You can now use mvp-contributions to submit activities!\n');
-			console.log('💡 Try: mvp-contributions add\n');
+			console.log('🎉 You can now use mvp-activity to submit activities!\n');
+			console.log('💡 Try: mvp-activity add\n');
 		});
 	});
 }

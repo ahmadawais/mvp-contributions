@@ -205,7 +205,7 @@ export const login = async () => {
 
 			console.log('');
 			clack.log.info('Credentials stored securely at:');
-			console.log(chalk.dim('  ~/.config/mvp-contributions/config.json'));
+			console.log(chalk.dim('  ~/.config/mvp-activity/config.json'));
 			console.log('');
 
 			clack.outro(
@@ -286,7 +286,7 @@ export const login = async () => {
 
 				console.log('');
 				clack.log.info('Credentials stored securely at:');
-				console.log(chalk.dim('  ~/.config/mvp-contributions/config.json'));
+				console.log(chalk.dim('  ~/.config/mvp-activity/config.json'));
 				console.log('');
 
 				clack.outro(

@@ -1,12 +1,12 @@
 {
-	"name": "mvp-contributions",
+	"name": "mvp-activity",
 	"description": "Submit your Microsoft MVP contributions with the ease of a command line CLI",
 	"version": "0.0.2",
 	"license": "MIT",
 	"type": "module",
 	"bin": {
-		"mvp-contributions": "dist/index.js",
-		"mvpc": "dist/index.js"
+		"mvp-activity": "dist/index.js",
+		"mvpa": "dist/index.js"
 	},
 	"author": {
 		"name": "Ahmad Awais",
@@ -14,11 +14,13 @@
 		"url": "https://twitter.com/_AhmadAwais/"
 	},
 	"keywords": [
+		"mvp-activity",
 		"mvp-contributions",
 		"microsoft-mvp",
 		"mvp",
 		"Ahmad Awais",
 		"contributions",
+		"activity",
 		"cli"
 	],
 	"files": [

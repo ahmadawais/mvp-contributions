@@ -44,6 +44,6 @@ Copy that number (e.g., `12345`).
 ## Security
 
 - Token and Profile ID are stored locally using `conf`
-- Stored in: `~/.config/mvp-contributions/config.json`
+- Stored in: `~/.config/mvp-activity/config.json`
 - Never committed to version control
 - Only used to authenticate with Microsoft MVP API

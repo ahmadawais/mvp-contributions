@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - 📦 Initial release
 - CLI tool for submitting Microsoft MVP contributions
-- Commands: `mvp-contributions` and `mvpc`
+- Commands: `mvp-activity` and `mvpa`
 - Interactive prompts for contribution submission
 - Configuration management
 

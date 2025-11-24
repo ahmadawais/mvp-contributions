@@ -15,7 +15,7 @@ const packageJson = JSON.parse(
 const program = new Command();
 
 program
-	.name('mvp-contributions')
+	.name('mvp-activity')
 	.description('Submit your Microsoft MVP contributions with ease')
 	.version(packageJson.version, '-v, --version', 'output the version number')
 	.helpOption('-h, --help', 'display help for command');

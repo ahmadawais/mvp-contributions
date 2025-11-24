@@ -1,6 +1,6 @@
 <h4 align="center">
-    <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=mvp-contributions">
-        <img src="https://raw.githubusercontent.com/ahmadawais/mvp-contributions/master/image.png" alt="mvp-contributions" />
+    <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=mvp-activity">
+        <img src="https://raw.githubusercontent.com/ahmadawais/mvp-activity/main/image.png" alt="mvp-activity" />
 </a>
 <br>
 <br>
@@ -9,13 +9,13 @@ Submit your Microsoft MVP contributions from the command line.
 
 <br>
 
-[![DOWNLOADS](https://img.shields.io/npm/dt/mvp-contributions?style=for-the-badge&label=Downloads&colorA=191D20&colorB=18BBF2)](https://www.npmjs.com/package/mvp-contributions) [![Learn Node.js CLI Automation](https://img.shields.io/badge/LEARN-NodeCLI.com%20%E2%86%92-gray.svg?style=for-the-badge&colorA=191D20&colorB=18BBF2)](https://nodecli.com/?utm_source=GitHubFOSS) [![Follow @_ahmadawais on X](https://img.shields.io/badge/FOLLOW-@_ahmadawais%20%E2%86%92-gray.svg?style=for-the-badge&colorA=191D20&colorB=18BBF2)](https://x.com/_ahmadawais/)
+[![DOWNLOADS](https://img.shields.io/npm/dt/mvp-activity?style=for-the-badge&label=Downloads&colorA=191D20&colorB=18BBF2)](https://www.npmjs.com/package/mvp-activity) [![Learn Node.js CLI Automation](https://img.shields.io/badge/LEARN-NodeCLI.com%20%E2%86%92-gray.svg?style=for-the-badge&colorA=191D20&colorB=18BBF2)](https://nodecli.com/?utm_source=GitHubFOSS) [![Follow @_ahmadawais on X](https://img.shields.io/badge/FOLLOW-@_ahmadawais%20%E2%86%92-gray.svg?style=for-the-badge&colorA=191D20&colorB=18BBF2)](https://x.com/_ahmadawais/)
 
 </h4>
 
 <br>
 
-# CLI: mvp-contributions
+# CLI: mvp-activity
 
 - 📦 Submit MVP contributions of any type
 - 🎯 Interactive mode with guided prompts
@@ -31,10 +31,10 @@ Submit your Microsoft MVP contributions from the command line.
 
 ```sh
 # Recommended.
-npx mvp-contributions
+npx mvp-activity
 
 # OR an alternative global install.
-npm install -g mvp-contributions
+npm install -g mvp-activity
 ```
 
 <br>
@@ -50,9 +50,9 @@ The CLI supports both **interactive** (default) and **non-interactive** modes fo
 First, authenticate with your MVP credentials:
 
 ```sh
-mvp-contributions login
+mvp-activity login
 # OR
-mvp-contributions l
+mvp-activity l
 ```
 
 This will guide you through:
@@ -64,12 +64,12 @@ This will guide you through:
 
 #### 💬 Interactive Mode (Default)
 
-Run `mvp-contributions add` and answer the prompts:
+Run `mvp-activity add` and answer the prompts:
 
 ```sh
-mvp-contributions add
+mvp-activity add
 # OR
-mvp-contributions a
+mvp-activity a
 ```
 
 You'll be asked:
@@ -88,7 +88,7 @@ You'll be asked:
 Perfect for CI/CD pipelines and scripts:
 
 ```sh
-mvp-contributions add \
+mvp-activity add \
   -t "Speaker/Presenter at Third-party event" \
   -T "My Conference Talk" \
   -D "Talked about AI agents" \
@@ -109,7 +109,7 @@ mvp-contributions add \
 Remove stored credentials:
 
 ```sh
-mvp-contributions logout
+mvp-activity logout
 ```
 
 <br>
@@ -121,7 +121,7 @@ mvp-contributions logout
 ### Basic Syntax
 
 ```sh
-mvp-contributions <command> [options]
+mvp-activity <command> [options]
 ```
 
 ### Global Options
@@ -148,14 +148,14 @@ Authenticate with your Microsoft MVP account.
 
 **Usage:**
 ```sh
-mvp-contributions login
-mvp-contributions l
+mvp-activity login
+mvp-activity l
 ```
 
 The CLI will guide you through:
 1. Opening the MVP portal in your browser
 2. Capturing network requests to extract your token
-3. Storing credentials securely in `~/.config/mvp-contributions/`
+3. Storing credentials securely in `~/.config/mvp-activity/`
 
 ---
 
@@ -165,8 +165,8 @@ Add a new contribution to your Microsoft MVP profile.
 
 **Usage:**
 ```sh
-mvp-contributions add [options]
-mvp-contributions a [options]
+mvp-activity add [options]
+mvp-activity a [options]
 ```
 
 **Options:**
@@ -244,10 +244,10 @@ mvp-contributions a [options]
 
 ```sh
 # Interactive mode (default)
-mvp-contributions add
+mvp-activity add
 
 # Speaking engagement (non-interactive)
-mvp-contributions add \
+mvp-activity add \
   -t "Speaker/Presenter at Third-party event" \
   -T "Command.new - Agent of Agents" \
   -D "Talked about building AI agents without frameworks" \
@@ -263,7 +263,7 @@ mvp-contributions add \
   -x
 
 # Blog post (non-interactive)
-mvp-contributions add \
+mvp-activity add \
   -t Blog \
   -T "My Blog Post" \
   -D "Description here" \
@@ -277,7 +277,7 @@ mvp-contributions add \
   -x
 
 # Video/Webinar (non-interactive)
-mvp-contributions add \
+mvp-activity add \
   -t "Webinar/Online Training/Video/Livestream" \
   -T "My Tutorial Video" \
   -D "Tutorial about Node.js" \
@@ -300,7 +300,7 @@ Remove stored MVP credentials.
 
 **Usage:**
 ```sh
-mvp-contributions logout
+mvp-activity logout
 ```
 
 <br>

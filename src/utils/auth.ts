@@ -1,7 +1,7 @@
 import Conf from 'conf';
 
 const config = new Conf({
-	projectName: 'mvp-contributions',
+	projectName: 'mvp-activity',
 	projectSuffix: ''
 });
 

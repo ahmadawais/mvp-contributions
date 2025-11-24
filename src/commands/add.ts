@@ -96,7 +96,7 @@ export const add = async (options: AddOptions) => {
 		} else {
 			console.error(
 				chalk.red(
-					'Error: MVP credentials not configured. Please run "mvp-contributions login" first.'
+					'Error: MVP credentials not configured. Please run "mvp-activity login" first.'
 				)
 			);
 			process.exit(1);

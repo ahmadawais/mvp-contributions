@@ -48,7 +48,7 @@ var init_auth = __esm({
     "use strict";
     init_esm_shims();
     config = new Conf({
-      projectName: "mvp-contributions",
+      projectName: "mvp-activity",
       projectSuffix: ""
     });
     getToken = () => {
@@ -422,7 +422,7 @@ var init_login = __esm({
           setProfileId(profileId);
           console.log("");
           clack.log.info("Credentials stored securely at:");
-          console.log(chalk2.dim("  ~/.config/mvp-contributions/config.json"));
+          console.log(chalk2.dim("  ~/.config/mvp-activity/config.json"));
           console.log("");
           clack.outro(
             chalk2.green("\u2713 Login successful! You can now submit MVP contributions.")
@@ -489,7 +489,7 @@ var init_login = __esm({
             setProfileId(manualProfileId);
             console.log("");
             clack.log.info("Credentials stored securely at:");
-            console.log(chalk2.dim("  ~/.config/mvp-contributions/config.json"));
+            console.log(chalk2.dim("  ~/.config/mvp-activity/config.json"));
             console.log("");
             clack.outro(
               chalk2.green("\u2713 Login successful! You can now submit MVP contributions.")
@@ -596,7 +596,7 @@ var init_add = __esm({
         } else {
           console.error(
             chalk3.red(
-              'Error: MVP credentials not configured. Please run "mvp-contributions login" first.'
+              'Error: MVP credentials not configured. Please run "mvp-activity login" first.'
             )
           );
           process.exit(1);
@@ -1115,7 +1115,7 @@ var packageJson = JSON.parse(
   readFileSync(join(__dirname2, "../package.json"), "utf-8")
 );
 var program = new Command();
-program.name("mvp-contributions").description("Submit your Microsoft MVP contributions with ease").version(packageJson.version, "-v, --version", "output the version number").helpOption("-h, --help", "display help for command");
+program.name("mvp-activity").description("Submit your Microsoft MVP contributions with ease").version(packageJson.version, "-v, --version", "output the version number").helpOption("-h, --help", "display help for command");
 program.command("add").alias("a").description("Add a new MVP contribution (interactive by default)").option("-t, --type <type>", "activity type").option("-u, --url <url>", "activity URL").option("-d, --date <date>", "activity date (YYYY-MM-DD)", (/* @__PURE__ */ new Date()).toISOString().split("T")[0]).option("-T, --title <title>", "activity title").option("-D, --description <description>", "activity description").option("-a, --audience <audience>", "target audience (comma-separated: Developer,Student,IT Pro)").option("-r, --role <role>", "your role (Speaker,Author,Host,etc.)").option("--tech-area <area>", "technology focus area").option("--attendees <number>", "in-person attendees (for speaking)").option("--live-views <number>", "livestream views").option("--on-demand-views <number>", "on-demand views").option("--sessions <number>", "number of sessions").option("--views <number>", "number of views (for blog/article)").option("--subscribers <number>", "subscriber base").option("--listens <number>", "number of listens (for podcast)").option("-x, --no-interactive", "disable interactive mode").action(async (options) => {
   const { add: add2 } = await Promise.resolve().then(() => (init_add(), add_exports));
   await add2(options);
