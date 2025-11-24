@@ -6,9 +6,9 @@ export const banner = () => {
 █▀▄▀█ ▀█░█▀ █▀█
 █░▀░█ ░█▄█░ █▀▀
 
-Contributions CLI
+Activity CLI
 by Ahmad Awais
 
-        `)
+        `),
 	);
 };
