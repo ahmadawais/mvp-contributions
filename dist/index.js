@@ -9,11 +9,11 @@ var __export = (target, all) => {
     __defProp(target, name, { get: all[name], enumerable: true });
 };
 
-// node_modules/.pnpm/tsup@8.5.1_postcss@8.5.6_typescript@5.9.3/node_modules/tsup/assets/esm_shims.js
+// node_modules/.pnpm/tsup@8.5.1_postcss@8.5.6_tsx@4.20.6_typescript@5.9.3/node_modules/tsup/assets/esm_shims.js
 import path from "path";
 import { fileURLToPath } from "url";
 var init_esm_shims = __esm({
-  "node_modules/.pnpm/tsup@8.5.1_postcss@8.5.6_typescript@5.9.3/node_modules/tsup/assets/esm_shims.js"() {
+  "node_modules/.pnpm/tsup@8.5.1_postcss@8.5.6_tsx@4.20.6_typescript@5.9.3/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });

@@ -1,6 +1,6 @@
 <h4 align="center">
     <a href="https://nodecli.com/?utm_source=FOSS&utm_medium=FOSS&utm_campaign=mvp-contributions">
-        <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/logo.png" alt="mvp-contributions" />
+        <img src="https://raw.githubusercontent.com/ahmadawais/mvp-contributions/master/image.png" alt="mvp-contributions" />
 </a>
 <br>
 <br>
