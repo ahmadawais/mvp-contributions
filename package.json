@@ -1,7 +1,7 @@
 {
 	"name": "mvp-activity",
 	"description": "Submit your Microsoft MVP contributions with the ease of a command line CLI",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"license": "MIT",
 	"type": "module",
 	"bin": {
